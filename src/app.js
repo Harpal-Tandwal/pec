@@ -84,10 +84,10 @@ const  DB = mongoose.connect("mongodb://localhost:27017/db1",{
         }
       }); 
     console.log(result);
-} catch(err){
-    console.log(err);
+} catch(error){
+    console.log(error);
 }  
  }
-
+ //  hello mohit 
 
 updateDocument('6270b30c7b75ac303218a748');
