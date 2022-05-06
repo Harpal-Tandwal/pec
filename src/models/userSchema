@@ -1,0 +1,12 @@
+const mongoose = require('mongoose');
+
+const userSchema = new mongoose.Schema({
+    temperature: Number,
+    humidity:Number,
+    hook:Number,
+    userID:String,
+    moisture:Number
+});
+
+const Readings =  mongoose.model('readings',userSchema);
+module.exports = Readings;
